@@ -16,5 +16,12 @@
     "htmlWhitespaceSensitivity": "css",
     "vueIndentScriptAndStyle": true,
     "endOfLine": "lf",
-    "embeddedLanguageFormatting": "auto"
+    "embeddedLanguageFormatting": "auto",
+
+    "overrides": [
+        {
+            "files": ["*.yaml", "*.yml"],
+            "options": { "tabWidth": 2 }
+        }
+    ]
 }
