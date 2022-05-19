@@ -1,6 +1,6 @@
 {
     "name": "@lars-reimann/prettier-config",
-    "version": "4.0.4",
+    "version": "5.0.0",
     "description": "Configuration for Prettier",
     "main": ".prettierrc.json",
     "license": "MIT",
