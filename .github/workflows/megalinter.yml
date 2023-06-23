@@ -2,12 +2,14 @@ name: MegaLinter
 
 on:
   pull_request:
-    branches: [main, master]
+    branches: [ main ]
 
 jobs:
-  run-megalinter:
+  megalinter:
     uses: lars-reimann/.github/.github/workflows/megalinter-reusable.yml@main
-    with:
-      flavor: java
+    permissions:
+      contents: write
+      issues: write
+      pull-requests: write
     secrets:
       PAT: ${{ secrets.PAT }}
