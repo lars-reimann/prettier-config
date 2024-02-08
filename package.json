@@ -14,7 +14,7 @@
     },
     "homepage": "https://github.com/lars-reimann/prettier-config",
     "peerDependencies": {
-        "prettier": ">= 2"
+        "prettier": "^3.2.5"
     },
     "devDependencies": {
         "conventional-changelog-conventionalcommits": "^7.0.2",
