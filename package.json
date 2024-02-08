@@ -18,7 +18,7 @@
     },
     "devDependencies": {
         "conventional-changelog-conventionalcommits": "^7.0.2",
-        "semantic-release": "^21.0.1"
+        "semantic-release": "^23.0.2"
     },
     "publishConfig": {
         "provenance": true
