@@ -1,10 +1,10 @@
-const baseConfig = require('@lars-reimann/prettier-config');
+const basicConfig = require('@lars-reimann/prettier-config');
 
 module.exports = {
-    ...baseConfig,
+    ...basicConfig,
     'plugins': ['prettier-plugin-svelte'],
     'overrides': [
-        ...baseConfig.overrides,
+        ...basicConfig.overrides,
         { 'files': '*.svelte', 'options': { 'parser': 'svelte' } },
     ],
 };

@@ -1,7 +1,7 @@
 {
     "name": "@lars-reimann/prettier-config-svelte",
     "version": "5.2.0",
-    "description": "Configuration for Prettier",
+    "description": "Configuration for Prettier in Svelte projects",
     "main": ".prettierrc.js",
     "license": "MIT",
     "keywords": [

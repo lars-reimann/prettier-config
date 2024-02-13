@@ -3,7 +3,7 @@ module.exports = {
     'plugins': [
         ['@semantic-release/commit-analyzer', { preset: 'conventionalcommits' }],
         ['@semantic-release/release-notes-generator', { preset: 'conventionalcommits' }],
-        ['@semantic-release/npm', { pkgRoot: 'packages/base' }],
+        ['@semantic-release/npm', { pkgRoot: 'packages/basic' }],
         ['@semantic-release/npm', { pkgRoot: 'packages/svelte' }],
         '@semantic-release/github',
         [
@@ -11,7 +11,7 @@ module.exports = {
             {
                 assets: [
                     'package-lock.json',
-                    'packages/base/package.json',
+                    'packages/basic/package.json',
                     'packages/svelte/package.json',
                 ],
             },

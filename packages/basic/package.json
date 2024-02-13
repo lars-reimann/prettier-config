@@ -1,7 +1,7 @@
 {
     "name": "@lars-reimann/prettier-config",
     "version": "5.2.0",
-    "description": "Configuration for Prettier",
+    "description": "Basic configuration for Prettier",
     "main": ".prettierrc.json",
     "license": "MIT",
     "keywords": [
