@@ -1,4 +1,4 @@
-# Configuration for [Prettier](https://prettier.io/)
+# Basic Configuration for [Prettier](https://prettier.io/)
 
 To use this configuration:
 

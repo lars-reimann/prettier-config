@@ -1,26 +1,14 @@
 {
-    "name": "@lars-reimann/prettier-config",
-    "version": "5.0.0",
-    "description": "Configuration for Prettier",
-    "main": ".prettierrc.json",
-    "license": "MIT",
-    "keywords": [
-        "prettier",
-        "prettierconfig"
-    ],
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/lars-reimann/prettier-config"
-    },
-    "homepage": "https://github.com/lars-reimann/prettier-config",
-    "peerDependencies": {
-        "prettier": "^3.2.5"
-    },
-    "devDependencies": {
-        "conventional-changelog-conventionalcommits": "^7.0.2",
-        "semantic-release": "^23.0.2"
-    },
-    "publishConfig": {
-        "provenance": true
-    }
+  "name": "prettier-config",
+  "version": "0.0.0",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {
+    "@semantic-release/git": "^10.0.1",
+    "@semantic-release/npm": "^11.0.2",
+    "conventional-changelog-conventionalcommits": "^7.0.2",
+    "semantic-release": "^23.0.2"
+  }
 }

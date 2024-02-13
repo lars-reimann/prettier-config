@@ -1,0 +1,22 @@
+{
+    "name": "@lars-reimann/prettier-config",
+    "version": "5.1.0",
+    "description": "Configuration for Prettier",
+    "main": ".prettierrc.json",
+    "license": "MIT",
+    "keywords": [
+        "prettier",
+        "prettierconfig"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/lars-reimann/prettier-config"
+    },
+    "homepage": "https://github.com/lars-reimann/prettier-config",
+    "peerDependencies": {
+        "prettier": "^3.2.5"
+    },
+    "publishConfig": {
+        "provenance": true
+    }
+}
